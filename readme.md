@@ -1,65 +1,31 @@
-# node-module-boilerplate
+# aws-textract-parser
 
-> Boilerplate to kickstart creating a Node.js module
-
-This is what I use for [my own modules](https://www.npmjs.com/~sindresorhus).
-
-Also check out [`node-cli-boilerplate`](https://github.com/sindresorhus/node-cli-boilerplate).
-
-## Getting started
-
-**Click the "Use this template" button.**
-
-Alternatively, create a new directory and then run:
-
-```sh
-curl -fsSL https://github.com/sindresorhus/node-module-boilerplate/archive/main.tar.gz | tar -xz --strip-components=1
-```
-
-There's also a [Yeoman generator](https://github.com/sindresorhus/generator-nm).
-
----
-
-**Remove everything from here and above**
-
----
-
-# unicorn-fun
-
-> My awesome module
+> Utility package to help parse AWS Textract reponse
 
 ## Install
 
 ```sh
-npm install unicorn-fun
+npm install aws-textract-parser
 ```
 
 ## Usage
 
 ```js
-import unicornFun from 'unicorn-fun';
-
-unicornFun('unicorns');
-//=> 'unicorns & rainbows'
+import { <exported functions> } from 'aws-textract-parser';
 ```
 
 ## API
 
-### unicornFun(input, options?)
+### getKeyValuePairs(blocks)
 
 #### input
 
-Type: `string`
+Type: `Block[]`
 
-Lorem ipsum.
+Blocks response from AWS Textract commands.
 
-#### options
+#### returns
 
 Type: `object`
 
-##### postfix
-
-Type: `string`\
-Default: `'rainbows'`
-
-Lorem ipsum.
+An object with extracted forms data as key-value pair
