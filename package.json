@@ -1,0 +1,31 @@
+{
+	"name": "aws-textract-parser",
+	"version": "1.0.0",
+	"description": "Utility package to help parse AWS Textract reponse into readable content",
+	"license": "MIT",
+	"repository": "mii9000/aws-textract-parser",
+	"author": {
+		"name": "ibrahim",
+		"url": "https://github.com/mii9000"
+	},
+	"type": "module",
+	"exports": "./index.js",
+	"engines": {
+		"node": ">=16"
+	},
+	"scripts": {
+		"test": "ava"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"aws",
+		"textract"
+	],
+	"dependencies": {},
+	"devDependencies": {
+		"ava": "^5.3.0",
+		"xo": "^0.54.2"
+	}
+}
