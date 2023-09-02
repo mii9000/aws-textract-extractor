@@ -1,6 +1,5 @@
 import test from 'ava';
 import {getKeyValuePairs} from "./index.js";
-import { extractTableData } from "./table_parser.js";
 
 const sample_blocks = [
 	{
