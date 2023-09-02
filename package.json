@@ -14,7 +14,7 @@
 		"node": ">=16"
 	},
 	"scripts": {
-		"test": "xo && ava",
+		"test": "ava",
 		"fix-lint": "xo --fix"
 	},
 	"files": [
