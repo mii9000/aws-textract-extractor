@@ -1,6 +1,6 @@
-import kv_parser from './key_value_pair_parser.js'
+import keyValueParser from './key-value-pair-parser.js';
 
 export const getKeyValuePairs = blocks => {
-	const result = kv_parser(blocks)
+	const result = keyValueParser(blocks);
 	return result;
-}
+};

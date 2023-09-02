@@ -14,7 +14,8 @@
 		"node": ">=16"
 	},
 	"scripts": {
-		"test": "ava"
+		"test": "xo && ava",
+		"fix-lint": "xo --fix"
 	},
 	"files": [
 		"index.js"
