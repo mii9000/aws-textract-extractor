@@ -12,7 +12,7 @@ npm install aws-textract-extractor
 
 ```js
 import extractor from 'aws-textract-extractor';
-const response = extractor.extract(blocks)
+const { pairs, tables } = extractor.extract(blocks)
 ```
 
 ## API
