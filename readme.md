@@ -1,22 +1,23 @@
-# aws-textract-parser
+# aws-textract-extractor
 
-> Utility package to help parse AWS Textract reponse
+> Utility package to help parse AWS Textract response
 
 ## Install
 
 ```sh
-npm install aws-textract-parser
+npm install aws-textract-extractor
 ```
 
 ## Usage
 
 ```js
-import { <exported functions> } from 'aws-textract-parser';
+import extractor from 'aws-textract-extractor';
+const response = extractor.extract(blocks)
 ```
 
 ## API
 
-### getKeyValuePairs(blocks)
+### extract(blocks)
 
 #### input
 
@@ -28,4 +29,10 @@ Blocks response from AWS Textract commands.
 
 Type: `object`
 
-An object with extracted forms data as key-value pair
+An object with extracted forms data as key-value pair and tables data
+```
+{
+ "pairs": { },
+ "tables": [ ]
+}
+```
