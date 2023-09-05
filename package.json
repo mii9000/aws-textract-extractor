@@ -1,11 +1,11 @@
 {
-	"name": "aws-textract-parser",
+	"name": "aws-textract-extractor",
 	"version": "1.0.0",
 	"description": "Utility package to help parse AWS Textract reponse into readable content",
 	"license": "MIT",
-	"repository": "mii9000/aws-textract-parser",
+	"repository": "mii9000/aws-textract-extractor",
 	"author": {
-		"name": "ibrahim",
+		"name": "mii9000",
 		"url": "https://github.com/mii9000"
 	},
 	"type": "module",
