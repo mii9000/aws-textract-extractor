@@ -27,6 +27,6 @@
 	"dependencies": {},
 	"devDependencies": {
 		"ava": "^5.3.0",
-		"xo": "^0.54.2"
+		"xo": "^0.57.0"
 	}
 }
